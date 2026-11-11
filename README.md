@@ -74,6 +74,12 @@ Client 半 (client.js)
 dsh plugin --profile desktop add github:lw24-1936/dsh-cognition-hud
 ```
 
+或用 Releases 里的预构建 tgz（免 `allowBuilds` 构建授权）：
+
+```sh
+dsh plugin --profile desktop add https://github.com/lw24-1936/dsh-cognition-hud/releases/latest/download/dsh-cognition-hud.tgz
+```
+
 装完**完全退出再启动** DeepSeek Harness 一次（客户端 bundle 需要冷启动）。本地开发时也可以指向目录：
 
 ```powershell
