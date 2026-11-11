@@ -68,8 +68,15 @@ Client 半 (client.js)
 
 ## 安装 / 卸载
 
+从 GitHub 直接安装（不需要 npm、不需要本地目录）：
+
+```sh
+dsh plugin --profile desktop add github:lw24-1936/dsh-cognition-hud
+```
+
+装完**完全退出再启动** DeepSeek Harness 一次（客户端 bundle 需要冷启动）。本地开发时也可以指向目录：
+
 ```powershell
-# 安装（profile: desktop）
 # 通过 plugin_manager action=install_bundle，target 指向本目录
 ```
 

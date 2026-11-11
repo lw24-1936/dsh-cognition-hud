@@ -1,0 +1,6 @@
+url: https://github.com/lw24-1936/dsh-cognition-hud
+name: lw24-1936/dsh-cognition-hud
+category: ui
+description:
+  en: 'Floating panel that renders the live reasoning stream as a 96x24 block wall with a hopping pixel whale, plus tool intents, recent steps, plugins/skills/MCP used in the turn and token counts.'
+  zh: '把实时推理流画成一面 96×24 的方块墙，墙里有一只会游动跳跃的像素小鲸鱼，同时显示工具意图、最近步骤、本轮用到的插件/技能/MCP 与 token 数。'

@@ -1,9 +1,30 @@
 {
   "name": "@local/dsh-cognition-hud",
   "version": "0.1.0",
-  "private": true,
   "type": "module",
   "description": "A live cognition HUD: the agent's reasoning stream, tool intents, step timeline and token budget in one floating panel.",
+  "author": "lw24-1936",
+  "homepage": "https://github.com/lw24-1936/dsh-cognition-hud#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lw24-1936/dsh-cognition-hud.git"
+  },
+  "bugs": {
+    "url": "https://github.com/lw24-1936/dsh-cognition-hud/issues"
+  },
+  "keywords": [
+    "dsh",
+    "deepseek-harness",
+    "cordis",
+    "plugin",
+    "ui",
+    "cognition",
+    "reasoning",
+    "canvas"
+  ],
+  "engines": {
+    "dsh": ">=0.2.1-rc.2 <0.3.0-0"
+  },
   "exports": {
     ".": "./index.js",
     "./client": "./client.js",
