@@ -1,0 +1,6 @@
+{
+  "meta": {
+    "title": "Cognition HUD",
+    "description": "Watch the agent think: a floating panel streams its reasoning, tool intents, step timeline and token budget while it works."
+  }
+}
